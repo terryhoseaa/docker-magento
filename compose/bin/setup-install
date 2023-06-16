@@ -47,7 +47,6 @@ bin/clinotty bin/magento setup:install \
   --session-save-redis-host="$REDIS_SESSION_SAVE_HOST" \
   --session-save-redis-log-level=4 \
   --session-save-redis-db=2 \
-  --opensearch-port="$OPENSEARCH_PORT" \
   --search-engine=opensearch \
   --elasticsearch-host="$ES_HOST" \
   --elasticsearch-port="$ES_PORT" \
